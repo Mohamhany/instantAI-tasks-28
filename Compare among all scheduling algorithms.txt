@@ -1,0 +1,26 @@
+Compare among all scheduling algorithms
+ Let's compare the three scheduling algorithms: Round Robin, Priority, and First Come First Serve.
+1. Round Robin (RR) Scheduling:
+* Each process is assigned a fixed time slice (quantum) for execution.
+* Processes are executed in a circular manner, with each process getting a turn to run for its allocated time slice.
+* If a process doesn't complete within its time slice, it is preempted, and the next process in the queue gets a chance to run.
+* RR is typically used in time-sharing systems and provides fairness in terms of CPU time allocation.
+* It is easy to implement and ensures that no process starves for execution.
+* However, it may not be efficient for long-running processes or when there is a mix of CPU-bound and I/O-bound processes, as it can lead to frequent context switches.
+2. Priority Scheduling:
+* Each process is assigned a priority value, and the scheduler executes the process with the highest priority first.
+* Priority can be based on various factors like process type, importance, deadlines, or user-defined criteria.
+* It can be either preemptive or non-preemptive. In preemptive priority scheduling, a higher-priority process can preempt a lower-priority process, while in non-preemptive, once a process starts executing, it continues until completion.
+* Priority scheduling is flexible and allows for prioritizing critical tasks or time-sensitive processes.
+* However, it can lead to starvation if lower-priority processes never get a chance to execute. To prevent this, aging techniques can be employed to gradually increase the priority of waiting processes.
+3. First Come First Serve (FCFS) Scheduling:
+* Processes are executed in the order they arrive in the system.
+* The first process that arrives gets the CPU first, and subsequent processes wait in a queue.
+* FCFS is simple and easy to understand and implement.
+* It ensures fairness in terms of order of execution.
+* However, FCFS can suffer from the "convoy effect" where a long-running process can hold up the execution of subsequent processes, leading to poor overall system performance.
+In summary, here are some key characteristics of each scheduling algorithm:
+* Round Robin: Provides fairness, suitable for time-sharing systems, but can have high overhead due to frequent context switches.
+* Priority: Allows prioritization of processes based on importance, deadlines, etc., but can lead to starvation if not properly managed.
+* First Come First Serve: Simple and ensures fairness in execution order, but can suffer from the convoy effect and may not be suitable for time-sensitive or critical tasks.
+
