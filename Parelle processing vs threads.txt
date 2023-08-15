@@ -1,0 +1,18 @@
+Parelle processing vs threads
+Parallel processing and threads are both methods used to achieve concurrent execution and improve computational efficiency, but they differ in their underlying concepts and approaches. Let's explore the differences between parallel processing and threads:
+Parallel Processing:
+Parallel processing involves breaking down a larger problem into smaller subproblems and executing them simultaneously on multiple processing units. It leverages the concept of dividing and conquering to solve complex tasks more efficiently. Each processing unit works on its assigned subproblem, and the results are combined to obtain the final solution. Parallel processing can be achieved using multiple processors, cores, or even distributed systems.
+Key characteristics of parallel processing include:
+1. Simultaneous Execution: Multiple tasks or subproblems are executed simultaneously by different processing units.
+2. Independent Processing: Each processing unit operates independently on its assigned task without relying on others.
+3. High Throughput: Parallel processing aims to improve overall system throughput by dividing the workload among multiple processors or cores.
+Parallel processing can significantly speed up computation for tasks that can be divided into smaller, independent parts. It is commonly used in scientific simulations, data processing, image and video processing, and other computationally intensive applications.
+Threads:
+Threads, on the other hand, are lightweight units of execution within a process. A process can have multiple threads that share the same memory space and resources but can run independently and concurrently. Threads allow different parts of a program to execute simultaneously, enabling efficient utilization of system resources. Threads within a process share the same memory, file descriptors, and other resources, making communication and data sharing between threads easier.
+Key characteristics of threads include:
+1. Concurrent Execution: Threads execute concurrently, allowing multiple portions of a program to run at the same time.
+2. Shared Memory: Threads within a process share the same memory space, which simplifies communication and data sharing.
+3. Multitasking: Threads enable a program to perform multiple tasks simultaneously, enhancing responsiveness and efficiency.
+Threads are commonly used to implement concurrent programming, where different parts of a program can execute concurrently and independently. They are suitable for scenarios where the program's tasks can be divided into smaller, interdependent units that can be executed concurrently.
+In summary, parallel processing focuses on dividing a larger problem into independent subproblems and executing them simultaneously on multiple processing units. Threads, on the other hand, enable a program to perform multiple tasks concurrently within a single process by utilizing shared memory. Both parallel processing and threads contribute to achieving concurrent execution and improving computational efficiency, but they address different aspects of concurrency and are applicable in different contexts.
+
