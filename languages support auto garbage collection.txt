@@ -1,0 +1,11 @@
+languages support auto garbage collection
+Garbage collection is a feature provided by many programming languages to automatically manage memory allocation and deallocation. While specific documentation may vary depending on the language you are using, here are some commonly used programming languages that support automatic garbage collection, along with links to their respective official documentation:
+1. Java
+2. C# 
+3. Python
+4. JavaScript
+5. Ruby
+6. Go
+7. Kotlin
+8. Swift
+
