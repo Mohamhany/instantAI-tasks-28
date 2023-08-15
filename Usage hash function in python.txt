@@ -1,0 +1,12 @@
+Usage hash function in python
+Hash() function : is a built in function in python and returns the hash value of an object if it has one. The hash value is an integer which is used to quickly compare dictionary keys while looking at a dictionary
+
+Hash function has types :
+1. Division method
+2. Mid square method
+3. Folding method
+4. Multiplication method
+hash() for immutable tuple object and hash() method used by one immutable object, if we use this on a mutable object like list, set, dictionaries then it will generate an error
+
+hash is used in things which want to make a hide like password bank , information for employee and patients and doctors 
+
