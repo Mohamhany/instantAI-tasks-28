@@ -1,0 +1,24 @@
+SOLID principle
+The SOLID principles are a set of five design principles that help in creating maintainable, flexible, and robust object-oriented software. These principles were introduced by Robert C. Martin (also known as Uncle Bob) and have become widely adopted guidelines in software development. Here's a brief explanation of each SOLID principle:
+1. Single Responsibility Principle (SRP):
+* A class should have only one reason to change, meaning it should have a single responsibility.
+* This principle promotes high cohesion, where each class or module focuses on performing a specific task or responsibility.
+* It helps in keeping code modular, readable, and maintainable.
+2. Open/Closed Principle (OCP):
+* Software entities (classes, modules, functions) should be open for extension but closed for modification.
+* This principle encourages designing code that can be easily extended without modifying existing code.
+* It helps in achieving code reuse, maintainability, and avoiding potential regressions.
+3. Liskov Substitution Principle (LSP):
+* Subtypes must be substitutable for their base types without affecting the correctness of the program.
+* In other words, objects of derived classes should be able to replace objects of their base classes without causing issues or violating expected behavior.
+* This principle ensures that inheritance hierarchies are designed in a way that preserves consistency and avoids unexpected side effects.
+4. Interface Segregation Principle (ISP):
+* Clients should not be forced to depend on interfaces they don't use.
+* This principle suggests that interfaces should be fine-grained and focused on specific client needs.
+* It helps in preventing interface pollution and designing more maintainable and loosely coupled systems.
+5. Dependency Inversion Principle (DIP):
+* High-level modules should not depend on low-level modules. Both should depend on abstractions.
+* Abstractions (interfaces or abstract classes) should not depend on details; details should depend on abstractions.
+* This principle promotes loose coupling, modularity, and easier testing and maintenance of code.
+By following the SOLID principles, developers can create code that is easier to understand, maintain, and extend. These principles contribute to code quality, flexibility, and the ability to adapt to changing requirements. Applying SOLID principles often leads to more modular and testable code, improves code reuse, and reduces the impact of changes on other parts of the system.
+
